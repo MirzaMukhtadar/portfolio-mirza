@@ -1,0 +1,57 @@
+.flex_about_desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  .width_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 49px;
+    .about_me_desc {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      width: 90%;
+    }
+    .my_skills {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      .btn_skills {
+        width: auto;
+        padding: 10px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        border: 1px solid black;
+        height: 40px;
+        background-size: auto;
+        transition: background-color 775ms, opacity 0.4s, color 0.4s;
+        -webkit-transition: background-color 775ms, opacity 0.4s, color 0.4s;
+        transition: background-color 775ms, opacity 0.4s, color 0.4s;
+      }
+      .btn_skills:hover {
+        background-color: #32343a;
+        background-image: none;
+        color: #fff;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flex_about_desc {
+    .width_div {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 0 10px 0 10px;
+      align-items: center;
+      justify-content: center;
+      .about_me_desc {
+        width: 100%;
+      }
+    }
+  }
+}

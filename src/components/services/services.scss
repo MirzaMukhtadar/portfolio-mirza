@@ -1,0 +1,60 @@
+@import "../../styles/color";
+.center_services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .services_flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    .services_box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: $Primary_color;
+      padding: 10px;
+      border-radius: 10px;
+      width: 500px;
+      height: auto;
+      h4 {
+        color: white;
+        border-bottom: 2px solid white;
+      }
+
+      img {
+        height: 270px;
+        width: 270px;
+        border-radius: 10px;
+        border-bottom: 2px solid white;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .center_services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .services_flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .services_box {
+        width: 100%;
+        height: auto;
+        img {
+          height: 200px;
+          width: 200px;
+          border-radius: 10px;
+          border-bottom: 2px solid white;
+        }
+      }
+    }
+  }
+}

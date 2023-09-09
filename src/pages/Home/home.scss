@@ -1,0 +1,56 @@
+@import "../../styles/color";
+.sticky-social-btn-container {
+  position: fixed;
+  top: 85%;
+  right: 5px; /* Adjust this value to control the distance from the right edge */
+  transform: translateY(-50%);
+  z-index: 1000;
+  .social_btn_box {
+    background-color: $Primary_color;
+    padding: 10px;
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    .social_btn_flex {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      i {
+        font-size: 30px;
+        color: white;
+      }
+    }
+  }
+}
+
+.sticky-Top-btn-container {
+  position: fixed;
+  top: 90%;
+  right: 5%;
+  transform: translateY(-50%);
+  z-index: 1000;
+  .top_btn_box {
+    background-color: $Primary_color;
+    padding: 10px;
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    .top_btn_flex {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      i {
+        font-size: 30px;
+        color: white;
+      }
+    }
+  }
+}
+.typewriter-text-container {
+  width: 200px; /* You can adjust the width based on your design */
+  display: inline-block;
+  color: rgb(221, 29, 29);
+  font-weight: bold;
+}

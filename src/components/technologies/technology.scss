@@ -1,0 +1,38 @@
+.flex_tech_boxes {
+  display: flex;
+  justify-content: space-between;
+  .technology_box {
+    // background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+    height: auto;
+    width: 200px;
+
+    img {
+      height: 100px;
+      width: auto;
+      filter: grayscale(100%);
+      transition: filter 0.4s;
+    }
+    img:hover {
+      filter: none;
+    }
+  }
+  .technology_box:hover {
+    // background-color: #ffff;
+    // box-shadow: 0px 4px 13px rgba(56, 87, 140, 0.15);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flex_tech_boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
