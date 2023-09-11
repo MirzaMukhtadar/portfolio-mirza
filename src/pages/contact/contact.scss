@@ -6,7 +6,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: $Primary_color;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 10px;
     .contact_from_flex {
       display: flex;
@@ -23,7 +24,6 @@
         .text_field {
           margin-bottom: 18px;
           padding: 10px;
-          border: 1px #e4e4e4;
           border-radius: 8px;
           background-color: hsla(0, 0%, 100%, 0.5);
           -webkit-transition: border-color 0.4s;
@@ -43,12 +43,14 @@
             gap: 10px;
           }
           .div_lable_input label {
-            color: white;
+            color: black;
+          }
+          input {
+            border: 1px solid black;
           }
         }
         button {
           width: auto;
-
           background-color: #1a1b1f;
           border-radius: 8px;
           border: 1px solid white;
@@ -75,7 +77,7 @@
           color: #fff;
         }
         label {
-          color: white;
+          color: rgb(0, 0, 0);
         }
       }
     }
