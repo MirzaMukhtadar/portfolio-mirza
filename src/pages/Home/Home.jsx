@@ -10,6 +10,7 @@ import { motion } from "framer-motion";
 import MediaQuery from "../../components/media-query/MediaQuery";
 import MobileHeader from "../../components/Header/mobile-header/MobileHeader";
 import Contact from "../contact/Contact";
+import ComingSoon from "../comingSoon/ComingSoon";
 
 function SocialBtn() {
   const AboutDescVariants = {
@@ -117,6 +118,9 @@ function Home() {
       <SocialBtn />
       <section id="sectionHeader">
         <TopBtn />
+      </section>
+      <section id="section-projects">
+        <ComingSoon />
       </section>
     </div>
   );

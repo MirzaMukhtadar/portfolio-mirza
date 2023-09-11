@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./navbar.scss";
-// import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Link, animateScroll as scroll } from "react-scroll";
 import MyImg from "../../assets/image/Free_Sample_By_Wix (1).jpg";
@@ -69,6 +69,7 @@ function Navbar() {
       transition: { type: "spring", damping: 20, stiffness: 90 },
     },
   };
+
   return (
     <motion.div initial="hidden" animate="visible" variants={navbarVariants}>
       <div className="navbar">
@@ -112,7 +113,7 @@ function Navbar() {
           >
             <h4>Contact</h4>
           </Link>
-          <Link>
+          <Link to="section-projects">
             <button>View Projects</button>
           </Link>
         </div>
