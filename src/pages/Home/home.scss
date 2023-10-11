@@ -33,7 +33,6 @@
   .top_btn_box {
     background-color: $Primary_color;
     padding: 10px;
-
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     .top_btn_flex {
       display: flex;
@@ -53,4 +52,11 @@
   display: inline-block;
   color: rgb(221, 29, 29);
   font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .sticky-Top-btn-container {
+    right: 16%;
+    position: fixed;
+  }
 }

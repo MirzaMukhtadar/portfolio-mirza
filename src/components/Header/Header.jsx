@@ -50,16 +50,19 @@ function Header() {
             variants={SkillsDesc}
             className="header_about"
           >
-            <h2>Hi I am Mirza </h2>
+            <h2>Hi I am Mirza Mukhtadar</h2>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-              voluptatum sed minima voluptates eum et est labore officiis
-              inventore, aliquid ut temporibus veritatis totam ea soluta veniam
-              quisquam. Labore, veniam harum nihil placeat sapiente impedit
-              doloribus iusto molestias voluptates quisquam, minima culpa, quo
-              earum? Aspernatur rem sapiente assumenda optio deleniti sint
-              accusamus qui facilis reiciendis.
+              I'm a highly skilled Frontend Web Developer with a deep expertise
+              in building captivating user interfaces and exceptional web
+              experiences. With a strong foundation in ReactJS, JavaScript, CSS,
+              and Bootstrap, I've dedicated my career to crafting elegant,
+              functional, and responsive web applications that leave a lasting
+              impression. One of my core strengths lies in Responsive Web
+              Design, ensuring that every website I create is not only visually
+              stunning but also seamlessly adaptable to various devices and
+              screen sizes. This approach guarantees that users have an
+              outstanding experience regardless of how they access the site.
             </p>
           </motion.div>
         </div>

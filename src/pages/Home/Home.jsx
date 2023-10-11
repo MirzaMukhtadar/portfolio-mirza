@@ -31,10 +31,10 @@ function SocialBtn() {
       >
         <div className="social_btn_box">
           <div className="social_btn_flex">
-            <Link>
+            <Link to="">
               <i className="fa-brands fa-linkedin"></i>
             </Link>
-            <Link>
+            <Link to="">
               <i className="fa-brands fa-github"></i>
             </Link>
           </div>

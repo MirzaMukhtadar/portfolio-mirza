@@ -45,7 +45,7 @@ export default function AboutDesc() {
       name: "Redux",
     },
     {
-      name: "Tailwinf",
+      name: "Tailwind",
     },
     {
       name: "Material UI",
@@ -82,13 +82,20 @@ export default function AboutDesc() {
             <h3>My Career So Far</h3>
             <span></span>{" "}
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur cumque nemo vitae nesciunt, unde enim earum sequi
-              voluptates dolores, rem quis ea voluptas maiores voluptate quidem
-              voluptatem non repellat laudantium eos sapiente optio in?
-              Possimus, voluptas accusantium placeat ad consequuntur, velit
-              voluptatem illo eligendi similique animi voluptatibus eveniet
-              necessitatibus dicta.
+              I Started my career as a Front-End Web Developer Intern at
+              SKILLHUB IT SOLUTIONS, where I dedicated one year to honing my
+              skills. During this time, I focused on creating seamless user
+              experiences using ReactJS, CSS/SCSS, and JavaScript. I also gained
+              proficiency in state management with Redux-Toolkit, as well as
+              familiarity with the Context API. Following my internship, I
+              continued to build my experience as a React Trainee with{" "}
+              <a href="">Lucien Solutions</a>, collaborating closely with
+              backend teams and fellow developers. <br /> My role emphasized
+              bridging design and functionality to ensure highly responsive and
+              visually appealing web interfaces. Now, I'm actively seeking new
+              roles and projects to apply my skills and passion for web
+              development, with an open mindset and a strong desire to create
+              exceptional user experiences and drive business success.
             </p>
           </motion.div>
           <motion.div

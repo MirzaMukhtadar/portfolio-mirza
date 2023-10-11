@@ -14,6 +14,13 @@
       height: 250px;
       border-radius: 50%;
     }
+    .header_about {
+      h2 {
+        background: -webkit-linear-gradient(#f08484, #333);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
   }
 }
 
