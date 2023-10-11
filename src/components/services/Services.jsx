@@ -4,6 +4,8 @@ import Image from "../../assets/image/logo_frontttt.png";
 import Image2 from "../../assets/image/react-7578010.png";
 import Image3 from "../../assets/image/javascript-7577991.png";
 import { motion } from "framer-motion";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 function Services() {
   const serviceData = [
@@ -59,7 +61,8 @@ function Services() {
           {serviceData.map((item, index) => {
             return (
               <motion.div key={index} className="services_box">
-                <img src={item.img} alt="" />
+                <LazyLoadImage effect="blur" src={item.img} alt="" />
+
                 <h4 className="text-center">{item.title}</h4>
               </motion.div>
             );

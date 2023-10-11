@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import "./Header.scss";
 import MyImage from "../../assets/image/bg_dark_me.png";
 import { motion } from "framer-motion";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 function Header() {
   const homeVariants = {
@@ -42,7 +44,8 @@ function Header() {
             variants={ImgDesc}
             className="header_img"
           >
-            <img src={MyImage} alt="" />
+            <LazyLoadImage src={MyImage} alt="" effect="blur" />
+            <img />
           </motion.div>
           <motion.div
             initial="hidden"
